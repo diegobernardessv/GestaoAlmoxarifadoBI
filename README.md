@@ -39,147 +39,27 @@ Dashboard completo desenvolvido em Power BI para **gestão e controle de almoxar
 - **🎯 Aumento na acuracidade de inventários** com análise de divergências
 - **⚡ Eliminação de trabalho manual** de consolidação de planilhas
 
-## 🚀 Funcionalidades e Módulos do Dashboard
+## 🚀 Módulos Principais do Dashboard
 
-### 📦 Gestão de Solicitações e Requisições
+### 📦 Gestão Operacional
+- **Solicitações (SC/SA)**: Controle de requisições e reservas com KPI de atendimento (meta: >85%)
+- **Notas Fiscais**: Rastreabilidade de recebimentos de materiais e serviços
+- **Qualidade**: Taxa de inspeção e análise de não conformidades
+- **Frete**: Análise de custos (Normal vs Expresso) por responsabilidade e fornecedor
+- **Reparos**: Gestão de saída, retorno e backlog de materiais recuperados (Armazém 22)
 
-#### **SC (Solicitações de Compra)**
-- Volume mensal de SCs e itens solicitados
-- Tendência temporal de requisições
-- Análise de sazonalidade
+### 📊 Gestão de Estoques
+- **Refratários**: Controle de transferências e inventário (Armazéns 49 e 39)
+- **Insumos**: Análise de consumo real vs previsto e performance de fornecedores
+- **Obsolescência**: Estratificação por aging com R$ 68.7M identificados
+- **Inventário**: Acuracidade e divergências por armazém
+- **Saldo Geral**: Consolidação por categoria (Eletrodo, Insumos, Peças, Refratários, Gases)
 
-#### **S.A. (Solicitações de Almoxarifado)**
-- Total de SAs atendidas por período
-- Quantidade de itens atendidos
-- Performance de atendimento
-
-#### **Reservas de Material**
-- Status de atendimento: Totalmente / Parcialmente / Pendente / Sem Estoque
-- **KPI**: % de reservas totalmente atendidas (meta: >85%)
-- Análise de itens pendentes e sem estoque
-- Identificação de gargalos no processo de separação
-
-### 📄 Controle de Notas Fiscais
-
-#### **Notas Fiscais de Materiais**
-- Volume mensal de NFs recebidas
-- Total de itens por nota fiscal
-- Análise de fornecedores
-
-#### **Notas Fiscais de Serviços**
-- Segregação de NFs de serviços vs materiais
-- Controle de itens em notas de serviço
-- Rastreabilidade de recebimentos
-
-### 📊 Gestão de Qualidade
-
-- **Itens lançados** vs **Itens inspecionados**
-- **Taxa de inspeção** (% de itens efetivamente inspecionados)
-- **Itens não conformes** identificados
-- Rastreio de não conformidades por produto
-- Análise de causas de rejeição (medida errada, material defeituoso, marca divergente)
-- Monitoramento de desempenho do processo de inspeção
-
-### 💰 Análise de Custos de Frete
-
-#### **Frete Geral**
-- Frete Normal vs Frete Expresso
-- Análise de responsabilidade (Usuário vs Estoque)
-- Custos por produto e fornecedor
-- Identificação de oportunidades de economia
-
-#### **Frete (Outros)**
-- Fretes AL-VIX (Alagoas-Vitória)
-- Fretes WF (Warehouse Forwarder)
-- Análise comparativa de modalidades
-
-### 🔄 Gestão de Devoluções e Reparos
-
-#### **Devoluções**
-- Itens devolvidos ao estoque
-- Devolução ao usuário
-- Análise de motivos de devolução
-
-#### **Saída para Reparo**
-- Quantidade de NFs de saída para reparo
-- Total de itens enviados para manutenção
-
-#### **Retorno de Reparo**
-- Itens lançados vs baixados
-- Itens armazenados após reparo (Armazém 22)
-- Custo total de estoque de itens reparados
-- Gestão de backlog de reparos
-
-### 📦 Gestão de Estoques Especializados
-
-#### **Refratários**
-- Controle de itens em Armazéns 49 e 39
-- Taxa de inventário realizado
-- Valor inventariado vs total
-- Transferências entre armazéns
-- Recebimentos (NFs e toneladas)
-- Análise de movimentação de refratários
-
-#### **Armazém de Insumos**
-- Custos de transferências mensais
-- Toneladas transferidas
-- Quantidade de movimentações
-- Análise de eficiência logística
-
-#### **Tabela de Insumos**
-- Previsão de consumo vs Consumo real
-- Material entregue vs Solicitado
-- Taxa de atendimento de fornecedores
-- Análise de desvios (Cal, Palha, Coberturas)
-
-### 📉 Gestão de Obsolescência
-
-- **Estratificação por idade** (0-1 ano, 1-2 anos, 2-3 anos, 3-4 anos)
-- Quantidade de itens por faixa
-- **Valor financeiro imobilizado** (R$ 68.7M total identificado)
-- Percentual de itens obsoletos
-- Priorização de ações de descarte/liquidação
-
-### 🏪 Inventário e Divergências
-
-#### **Inventário Geral**
-- Inventário físico por armazém (6, 22, 40, 41, etc.)
-- Quantidade e valor inventariado
-- **Divergências Positivas e Negativas**
-- Valor de divergências por armazém
-- Acuracidade de inventário
-
-### 💼 Apuração Financeira de Armazéns
-
-- **Estoque por categoria**:
-  - Eletrodo/Nipple
-  - Insumos
-  - Peças de Reposição
-  - Refratários
-  - Cilindros
-  - Gases
-  - Óleo/Graxa
-
-- **Estoque Geral**: Consolidação mensal de todos os armazéns
-- Tendência de valorização/desvalorização
-- Análise de composição do estoque
-
-### 📊 Visualizações e Recursos Técnicos
-
-#### Tipos de Gráficos Utilizados
-- **Cartões de KPI**: Métricas principais com variação mensal
-- **Gráficos de Linha**: Tendências temporais de solicitações, estoques e custos
-- **Gráficos de Barras**: Comparação de volumes por categoria
-- **Gráficos de Rosca/Pizza**: Distribuição percentual (reservas, obsolescência)
-- **Tabelas dinâmicas**: Drill-down em dados detalhados
-- **Formatação condicional**: Destaques visuais de alertas e metas
-
-#### Design e UX
-- **Paleta de cores profissional**: Azul corporativo com destaques em verde/vermelho para indicadores
-- **Navegação por abas**: Organização lógica por processo
-- **Filtros de data**: Slicer para seleção de período de análise
-- **Tooltips informativos**: Detalhamento ao passar o mouse
-- **Responsividade**: Otimizado para diferentes tamanhos de tela
+### 🎨 Recursos Visuais
+- Cartões de KPI, gráficos de tendência e comparativos
+- Formatação condicional e drill-down em dados detalhados
+- Filtros de data e navegação intuitiva por abas
+- Paleta corporativa com destaques para alertas
 
 ### 🔧 Arquitetura e Modelagem de Dados
 
@@ -208,59 +88,23 @@ Dashboard completo desenvolvido em Power BI para **gestão e controle de almoxar
 
 #### DAX (Data Analysis Expressions)
 
-**Medidas Principais Criadas**:
+**Exemplos de Medidas**:
 
 ```dax
-// Taxa de Reservas Totalmente Atendidas
-Taxa Atendimento Reservas = 
-DIVIDE(
-    SUM(Reservas[Totalmente Atendidos]),
-    SUM(Reservas[Total Reservas]),
-    0
-)
-
-// Taxa de Inspeção de Qualidade
-Taxa Inspeção = 
-DIVIDE(
-    SUM(Qualidade[Itens Inspecionados]),
-    SUM(Qualidade[Itens Lançados]),
-    0
-)
-
-// Percentual de Não Conformidade
-% Não Conformidade = 
-DIVIDE(
-    SUM(Qualidade[Itens Não Conforme]),
-    SUM(Qualidade[Itens Inspecionados]),
-    0
-)
-
-// Custo Total de Frete
-Custo Frete Total = 
-SUM(Frete[Frete Normal]) + 
-SUM(Frete[Valor Expresso])
-
-// Valor de Estoque Obsoleto
-Estoque Obsoleto = 
-CALCULATE(
-    SUM(Obsolescência[Custo]),
-    Obsolescência[Anos] >= 2
-)
+// Taxa de Atendimento de Reservas
+Taxa Atendimento = DIVIDE(SUM(Reservas[Totalmente Atendidos]), SUM(Reservas[Total]), 0)
 
 // Acuracidade de Inventário
-Acuracidade Inventário = 
-1 - DIVIDE(
-    SUM(Inventário[Valor Divergências]),
-    SUM(Inventário[Valor Inventariado]),
-    0
-)
+Acuracidade = 1 - DIVIDE(SUM(Inventário[Divergências]), SUM(Inventário[Valor Total]), 0)
 
-// Variação Mensal
+// Estoque Obsoleto (>2 anos)
+Estoque Obsoleto = CALCULATE(SUM(Obsolescência[Custo]), Obsolescência[Anos] >= 2)
+
+// Variação Mensal (MoM)
 Variação MoM = 
-VAR MesAtual = [Medida Atual]
-VAR MesAnterior = CALCULATE([Medida Atual], DATEADD(Calendario[Data], -1, MONTH))
-RETURN
-DIVIDE(MesAtual - MesAnterior, MesAnterior, 0)
+VAR Atual = [Medida]
+VAR Anterior = CALCULATE([Medida], DATEADD(Calendario[Data], -1, MONTH))
+RETURN DIVIDE(Atual - Anterior, Anterior, 0)
 ```
 
 #### Power Query (M)
@@ -279,111 +123,21 @@ DIVIDE(MesAtual - MesAnterior, MesAnterior, 0)
 
 <div align="center">
 
-### 📊 Solicitações de Compra (SC)
-Dashboard de controle e acompanhamento de solicitações de compra de materiais
-![Solicitações de Compra](screenshots/01-solicitacoes-compra.png)
+| Solicitações de Compra | S.A. e Reservas | Controle de Qualidade |
+|:---:|:---:|:---:|
+| ![SC](screenshots/01-solicitacoes-compra.png) | ![SA](screenshots/02-solicitacoes-requisicoes.png) | ![Qualidade](screenshots/03-controle-qualidade.png) |
 
----
+| Notas Fiscais | Apuração de Fretes | Não Conformidade |
+|:---:|:---:|:---:|
+| ![NF](screenshots/04-apuracao-notas-fiscais.png) | ![Frete](screenshots/05-apuracao-fretes.png) | ![NC](screenshots/08-nao-conformidade.png) |
 
-### 📋 Solicitações de Almoxarifado (S.A.) e Reservas
-Gestão de requisições e status de atendimento de reservas de materiais
-![Solicitações e Requisições](screenshots/02-solicitacoes-requisicoes.png)
+| Recuperação de Materiais | Inventário | Refratários |
+|:---:|:---:|:---:|
+| ![Reparo](screenshots/09-recuperacao-materiais.png) | ![Inventário](screenshots/12-inventario.png) | ![Refratário](screenshots/14-recebimento-refratarios.png) |
 
----
-
-### 🎯 Controle de Qualidade - Visão Geral
-Monitoramento de inspeções e taxa de conformidade de materiais
-![Controle de Qualidade](screenshots/03-controle-qualidade.png)
-
----
-
-### 📈 Apuração de Notas Fiscais
-Lançamento e controle de notas fiscais de materiais e serviços
-![Apuração de Notas Fiscais](screenshots/04-apuracao-notas-fiscais.png)
-
----
-
-### 🚚 Apuração de Fretes - Visão Geral
-Análise de custos de frete normal e expresso por responsabilidade
-![Apuração de Fretes](screenshots/05-apuracao-fretes.png)
-
----
-
-### 💰 Apuração de Fretes - Detalhamento
-Análise detalhada por produto, fornecedor e modalidades (AL-VIX, WF)
-![Apuração de Fretes Detalhado](screenshots/06-apuracao-fretes-detalhado.png)
-
----
-
-### 📦 Controle de Qualidade - Detalhamento
-Análise de não conformidades por produto e causa raiz
-![Controle de Qualidade Detalhado](screenshots/07-controle-qualidade-detalhado.png)
-
----
-
-### ❌ Não Conformidade de Materiais
-Dashboard específico para rastreamento e análise de itens não conformes
-![Não Conformidade](screenshots/08-nao-conformidade.png)
-
----
-
-### 🔧 Saída para Recuperação de Materiais
-Controle de materiais enviados para reparo e manutenção
-![Recuperação de Materiais](screenshots/09-recuperacao-materiais.png)
-
----
-
-### ↩️ Retorno de Materiais Recuperados
-Acompanhamento de itens recuperados e armazenados (Armazém 22)
-![Retorno de Materiais Recuperados](screenshots/10-retorno-materiais-recuperados.png)
-
----
-
-### 📦 Estoque de Materiais Recuperados
-Gestão de backlog e custo de estoque de materiais em reparo
-![Estoque de Materiais Recuperados](screenshots/11-estoque-materiais-recuperados.png)
-
----
-
-### 📊 Inventário - Visão Geral
-Inventário físico por armazém e análise de cobertura
-![Inventário](screenshots/12-inventario.png)
-
----
-
-### 🔍 Inventário - Análise de Divergências
-Detalhamento de divergências positivas e negativas por armazém
-![Inventário Divergências](screenshots/13-inventario-divergencias.png)
-
----
-
-### 🧱 Recebimento de Refratários
-Controle de transferências e recebimentos de materiais refratários
-![Recebimento de Refratários](screenshots/14-recebimento-refratarios.png)
-
----
-
-### 📋 Inventário de Refratários
-Taxa de inventário e valor por armazém (49 e 39)
-![Inventário Refratários](screenshots/15-inventario-refratarios.png)
-
----
-
-### ⚙️ Ligas e Insumos
-Análise de consumo, previsão vs realizado e performance de fornecedores
-![Ligas e Insumos](screenshots/16-ligas-insumos.png)
-
----
-
-### 💼 Saldo Geral do Almoxarifado
-Consolidação mensal de estoque por categoria (Eletrodo, Insumos, Peças, Refratários)
-![Saldo Geral](screenshots/17-saldo-geral.png)
-
----
-
-### 📈 Saldo Geral - Tendências e Análises
-Evolução temporal e análise de composição do estoque
-![Saldo Geral Detalhado](screenshots/18-saldo-geral-detalhado.png)
+| Ligas e Insumos | Saldo Geral | Análise de Tendências |
+|:---:|:---:|:---:|
+| ![Insumos](screenshots/16-ligas-insumos.png) | ![Saldo](screenshots/17-saldo-geral.png) | ![Tendências](screenshots/18-saldo-geral-detalhado.png) |
 
 </div>
 
@@ -394,31 +148,7 @@ Evolução temporal e análise de composição do estoque
 - **Power Query (M)**: ETL e transformação de dados das 18 planilhas Excel
 - **Microsoft Excel**: Fonte de dados (Modelo Base de dados Power BI 2025.xlsx)
 
-## 📊 Principais KPIs Monitorados
-
-### Indicadores de Atendimento
-- **Taxa de Reservas Totalmente Atendidas**: Meta >85%
-- **Total de SCs e SAs Processadas**: Volume mensal
-- **Tempo médio de atendimento**: Eficiência operacional
-
-### Indicadores de Qualidade
-- **Taxa de Inspeção**: % de itens efetivamente inspecionados
-- **Taxa de Não Conformidade**: Itens rejeitados vs inspecionados
-- **Produtos com maior incidência de rejeição**: Análise de Pareto
-
-### Indicadores Financeiros
-- **Valor de Estoque Obsoleto**: R$ 68.7M identificados
-- **Custo de Frete Expresso**: Oportunidades de redução
-- **Valor de Divergências de Inventário**: Acuracidade
-- **Estoque Total por Categoria**: Eletrodo, Insumos, Peças, Refratários, etc.
-
-### Indicadores Operacionais
-- **Itens em Reparo (Backlog)**: Armazém 22
-- **Taxa de Devolução**: Controle de qualidade de saída
-- **Giro de Estoque**: Por categoria e armazém
-- **Transferências entre Armazéns**: Eficiência logística
-
-## 📖 Case Studies
+##  Case Studies
 
 ### Case Study 1: Redução de Estoque Obsoleto
 
