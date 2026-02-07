@@ -2,7 +2,6 @@
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 [![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/excel)
-[![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)](https://github.com)
 
 ## 📋 Sobre o Projeto
 
