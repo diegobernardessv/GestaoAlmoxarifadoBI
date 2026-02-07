@@ -279,69 +279,111 @@ DIVIDE(MesAtual - MesAnterior, MesAnterior, 0)
 
 <div align="center">
 
-### 📊 Página Principal
-![Overview Executivo](screenshots/01-overview-executivo.png)
+### 📊 Solicitações de Compra (SC)
+Dashboard de controle e acompanhamento de solicitações de compra de materiais
+![Solicitações de Compra](screenshots/01-solicitacoes-compra.png)
 
-### 📋 Solicitações e Requisições
-![Produção Diária](screenshots/02-producao-diaria.png)
+---
 
-### 🎯 Controle de Qualidade
-![Qualidade e Defeitos](screenshots/03-qualidade-defeitos.png)
+### 📋 Solicitações de Almoxarifado (S.A.) e Reservas
+Gestão de requisições e status de atendimento de reservas de materiais
+![Solicitações e Requisições](screenshots/02-solicitacoes-requisicoes.png)
 
-### 📈 Análise de Performance
-![Eficiência OEE](screenshots/04-eficiencia-oee.png)
+---
 
-### 🔧 Gestão de Manutenção
-![Manutenção Preventiva](screenshots/05-manutencao-preventiva.png)
+### 🎯 Controle de Qualidade - Visão Geral
+Monitoramento de inspeções e taxa de conformidade de materiais
+![Controle de Qualidade](screenshots/03-controle-qualidade.png)
 
-### 💰 Custos Operacionais
-![Custos Operacionais](screenshots/06-custos-operacionais.png)
+---
 
-### 📦 Gestão de Estoque
-![Estoque e Materiais](screenshots/07-estoque-materiais.png)
+### 📈 Apuração de Notas Fiscais
+Lançamento e controle de notas fiscais de materiais e serviços
+![Apuração de Notas Fiscais](screenshots/04-apuracao-notas-fiscais.png)
 
-### 💼 Análise Comercial
-![Vendas e Faturamento](screenshots/08-vendas-faturamento.png)
+---
 
-### 🚚 Logística e Entregas
-![Logística e Entregas](screenshots/09-logistica-entregas.png)
+### 🚚 Apuração de Fretes - Visão Geral
+Análise de custos de frete normal e expresso por responsabilidade
+![Apuração de Fretes](screenshots/05-apuracao-fretes.png)
 
-### 👥 Recursos Humanos
-![Recursos Humanos](screenshots/10-recursos-humanos.png)
+---
 
-### 🏭 Fornecedores
-![Análise de Fornecedores](screenshots/11-analise-fornecedores.png)
+### 💰 Apuração de Fretes - Detalhamento
+Análise detalhada por produto, fornecedor e modalidades (AL-VIX, WF)
+![Apuração de Fretes Detalhado](screenshots/06-apuracao-fretes-detalhado.png)
 
-### ⚡ Energia e Utilities
-![Energia e Utilidades](screenshots/12-energia-utilidades.png)
+---
 
-### 🛡️ Segurança do Trabalho
-![Segurança do Trabalho](screenshots/13-seguranca-trabalho.png)
+### 📦 Controle de Qualidade - Detalhamento
+Análise de não conformidades por produto e causa raiz
+![Controle de Qualidade Detalhado](screenshots/07-controle-qualidade-detalhado.png)
 
-### 📊 Capacidade Produtiva
-![Capacidade de Produção](screenshots/14-capacidade-producao.png)
+---
 
-### 🔩 Performance de Equipamentos
-![Performance de Equipamentos](screenshots/15-performance-equipamentos.png)
+### ❌ Não Conformidade de Materiais
+Dashboard específico para rastreamento e análise de itens não conformes
+![Não Conformidade](screenshots/08-nao-conformidade.png)
 
-### 📋 Backlog de Pedidos
-![Pedidos e Backlog](screenshots/16-pedidos-backlog.png)
+---
 
-### 🌱 Sustentabilidade
-![Indicadores de Sustentabilidade](screenshots/17-indicadores-sustentabilidade.png)
+### 🔧 Saída para Recuperação de Materiais
+Controle de materiais enviados para reparo e manutenção
+![Recuperação de Materiais](screenshots/09-recuperacao-materiais.png)
 
-### 🔍 Detalhamento Operacional
-![Detalhamento Linha de Produção](screenshots/18-detalhamento-linha-producao.png)
+---
 
-</div>
-![Dashboard Manutenção](screenshots/05-manutencao-preventiva.png)
+### ↩️ Retorno de Materiais Recuperados
+Acompanhamento de itens recuperados e armazenados (Armazém 22)
+![Retorno de Materiais Recuperados](screenshots/10-retorno-materiais-recuperados.png)
 
-**Custos Operacionais**  
-Análise de custos por centro de custo e categoria
-![Dashboard Custos](screenshots/06-custos-operacionais.png)
+---
 
-**Estoque e Materiais**  
-Gestão de inventário e giro de estoque
+### 📦 Estoque de Materiais Recuperados
+Gestão de backlog e custo de estoque de materiais em reparo
+![Estoque de Materiais Recuperados](screenshots/11-estoque-materiais-recuperados.png)
+
+---
+
+### 📊 Inventário - Visão Geral
+Inventário físico por armazém e análise de cobertura
+![Inventário](screenshots/12-inventario.png)
+
+---
+
+### 🔍 Inventário - Análise de Divergências
+Detalhamento de divergências positivas e negativas por armazém
+![Inventário Divergências](screenshots/13-inventario-divergencias.png)
+
+---
+
+### 🧱 Recebimento de Refratários
+Controle de transferências e recebimentos de materiais refratários
+![Recebimento de Refratários](screenshots/14-recebimento-refratarios.png)
+
+---
+
+### 📋 Inventário de Refratários
+Taxa de inventário e valor por armazém (49 e 39)
+![Inventário Refratários](screenshots/15-inventario-refratarios.png)
+
+---
+
+### ⚙️ Ligas e Insumos
+Análise de consumo, previsão vs realizado e performance de fornecedores
+![Ligas e Insumos](screenshots/16-ligas-insumos.png)
+
+---
+
+### 💼 Saldo Geral do Almoxarifado
+Consolidação mensal de estoque por categoria (Eletrodo, Insumos, Peças, Refratários)
+![Saldo Geral](screenshots/17-saldo-geral.png)
+
+---
+
+### 📈 Saldo Geral - Tendências e Análises
+Evolução temporal e análise de composição do estoque
+![Saldo Geral Detalhado](screenshots/18-saldo-geral-detalhado.png)
 
 </div>
 
