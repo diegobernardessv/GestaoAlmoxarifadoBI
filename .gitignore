@@ -1,0 +1,81 @@
+# Power BI Files
+*.pbix
+*.pbit
+*.pbids
+*.pbip
+*.pbir
+
+# Power BI Temporary Files
+*.tmp
+~$*.pbix
+
+# Power BI Cache
+*.cache
+*.abf
+
+# Power BI Desktop Log Files
+*.log
+
+# Power BI Report Builder
+*.rptproj.user
+
+# Power BI Dataflows
+*.json.user
+
+# Windows System Files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Temporary Files
+*.temp
+*.swp
+*.swo
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Excel Temporary Files
+~$*.xlsx
+~$*.xls
+
+# Data Sources (opcional - descomente se não quiser versionar dados)
+# *.csv
+# *.xlsx
+# *.xls
+# *.accdb
+# *.mdb
+
+# Credentials and Sensitive Data
+*.credentials
+secrets.json
+connection_strings.txt
+
+# Reports Output
+output/
+exports/
+published/
+
+# Node modules (se usar ferramentas Node.js)
+node_modules/
+
+# Python (se usar scripts Python para ETL)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
