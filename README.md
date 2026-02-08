@@ -10,6 +10,7 @@ Dashboard completo desenvolvido em Power BI para **gestão e controle de almoxar
 ### 🏭 Contexto de Negócio
 
 **Setor**: Indústria Siderúrgica / Metal-Mecânica
+
 **Operação**: Gestão de almoxarifado com múltiplos armazéns especializados
 
 **Desafio**: A gestão do almoxarifado enfrentava dificuldades significativas na consolidação e análise de dados distribuídos em planilhas Excel desconectadas, resultando em:
